@@ -59,6 +59,16 @@ html_content = r"""
             .site-header h1 { font-size: 1.4rem; }
         }
 
+        /* ===== BANNER IMAGE ===== */
+        .banner-image {
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 1.8rem;
+            display: block;
+            border: 1px solid #e8e0d8;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+        }
+
         /* TYPOGRAPHY */
         h2 {
             font-size: 1.7rem;
@@ -221,6 +231,9 @@ html_content = r"""
 <!-- ===== MAIN CONTENT ===== -->
 <div class="container">
 
+    <!-- ===== BANNER IMAGE ===== -->
+    <img src="Screenshot 2026-08-28 at 1.50.55 AM.png" alt="Summer is easier" class="banner-image">
+
     <!-- intro -->
     <p>Sometimes you know exactly what you want. Other times, you only know the category.</p>
     <p>You might need a new hair dryer but haven't decided which model makes sense. You may want to upgrade your electric shaver without knowing whether you need the most advanced option. Or perhaps you're shopping for a practical gift and would rather compare a few ideas before committing.</p>
@@ -348,4 +361,4 @@ html_content = r"""
 </html>
 """
 
-components.html(html_content, height=3000, scrolling=True)
+components.html(html_content, height=3200, scrolling=True)
